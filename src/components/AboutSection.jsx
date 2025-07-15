@@ -26,7 +26,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I consider myself an ambitious person with an special ability 
               to learn. Selfcritical ability that drives me and motivates me 
-              to personal growth in all areas. I have excelent experience in 
+              to personal growth in all areas. I have excellent experience in 
               teamwork and leadership. I'm passionate about the world or sector 
               related to new technologies. I'm also the type of person who is 
               open to the public, passionate and eager to learn.
@@ -39,7 +39,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="public\cv\CV_pmorenogarcia_2025.pdf"
+                href="cv/CV_pmorenogarcia_2025.pdf"
+                download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

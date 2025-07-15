@@ -93,7 +93,7 @@ export const ContactSection = () => {
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                  <h4 className="text-left font-medium"> Email</h4>
                   <a
                     href="mailto:pol.moreno.garcia@outlook.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -107,7 +107,7 @@ export const ContactSection = () => {
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Phone</h4>
+                  <h4 className="text-left font-medium"> Phone</h4>
                   <a
                     href="tel:+34651903236"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -121,7 +121,7 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Location</h4>
+                  <h4 className="text-left font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Sant Andreu de la Barca, Barcelona, Spain
                   </a>
