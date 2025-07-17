@@ -1,4 +1,4 @@
-import { Briefcase, Code, User, Box, Workflow } from "lucide-react";
+import { Code, User, Box, Workflow } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -30,6 +30,13 @@ export const AboutSection = () => {
               teamwork and leadership. I'm passionate about the world or sector 
               related to new technologies. I'm also the type of person who is 
               open to the public, passionate and eager to learn.
+            </p>
+            <p className="text-muted-foreground">
+              Although I am mostly working professionally in Backend development 
+              and have some experience with CI/CD, I am genuinely interested in Web 
+              Development. I actively dedicate time to learning and experimenting 
+              with front-end technologies, aiming to expand my skills and gain a 
+              broader understanding of full-stack development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

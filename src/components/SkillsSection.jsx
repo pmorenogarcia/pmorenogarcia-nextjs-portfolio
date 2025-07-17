@@ -21,6 +21,7 @@ const skills = [
   // Tools Skills
   { name: 'Git & GitHub', level: 80, category: 'tools' },
   { name: 'GCP', level: 60, category: 'tools' },
+  { name: 'DataDog', level: 65, category: 'tools' },
   { name: 'Docker', level: 60, category: 'tools' },
   { name: 'Linux', level: 75, category: 'tools' },
   { name: 'VS Code', level: 90, category: 'tools' },
@@ -56,7 +57,7 @@ export const SkillsSection = () => {
               key={key}
               onClick={() => setActiveCategory(category)}
               className={cn(
-                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                "px-5 py-2 rounded-full transition-colors duration-300 capitalize cursor-pointer",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "bg-secondary/70 text-forefround hover:bd-secondary"
